@@ -6,19 +6,20 @@ Este proyecto es un framework de automatización de pruebas para aplicaciones we
 
 ## 📁 Estructura del proyecto
 
+```plaintext
 src/
 ├── main/
-│ └── java/
-│ └── actions/ # Lógica reutilizable para interactuar con la app (login, navegación, etc.)
-│ └── utils/ # Funciones auxiliares (esperas, strings, fechas, etc.)
-│ └── reports/ # Clases para manejo de reportes personalizados (ej. ExtentReports)
+│   └── java/
+│       ├── actions/      # Lógica reutilizable para interactuar con la aplicación (login, navegación, etc.)
+│       ├── utils/        # Funciones auxiliares (esperas, strings, fechas, etc.)
+│       └── reports/      # Clases para manejo de reportes personalizados (ej. ExtentReports)
 └── test/
-└── java/ # Clases de pruebas TestNG/JUnit
-└── resources/
-└── config/ # Archivos de configuración, variables de entorno
-└── testdata/ # Datos para pruebas (JSON, CSV, etc.)
+    ├── java/            # Clases de pruebas TestNG/JUnit
+    └── resources/
+        ├── config/      # Archivos de configuración, variables de entorno
+        └── testdata/    # Datos para pruebas (JSON, CSV, etc.)
 
-
+```
 ---
 
 ## ⚙️ Tecnologías y dependencias
