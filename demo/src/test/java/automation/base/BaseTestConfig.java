@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import io.qameta.allure.Allure;
+import java.time.Duration;
 
 
 public class BaseTestConfig {
@@ -17,6 +18,8 @@ public class BaseTestConfig {
         Allure.step("Inicialización del proyecto");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(Url.baseUlr);
     }
 
