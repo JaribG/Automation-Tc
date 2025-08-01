@@ -81,3 +81,6 @@ reports/: Clases para configurar y generar reportes (e.g., ExtentReports). No de
 utils/: Funciones auxiliares genéricas reutilizables, como esperas explícitas, conversiones, utilidades de strings, fechas, etc.
 
 Separar bien la lógica de pruebas (clases en test/) de la lógica de interacción (clases en main/java/actions).
+
+#Reporteria
+<img width="3832" height="1970" alt="image" src="https://github.com/user-attachments/assets/9b33e2db-0de5-4cbb-a1db-9ce79fc8f8c1" />
